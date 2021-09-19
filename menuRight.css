@@ -1,0 +1,80 @@
+
+
+
+:root {
+    --shadowPadrao: rgba(0,0,0,0.8)
+}
+
+
+.menuRight {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+
+    position: fixed;
+    height: 70vh;
+    width: 200px;
+
+    right: 20px; 
+
+}
+
+
+.cardCores {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    width: 20vh;
+    box-shadow: var(--shadowPadrao);
+    
+}
+
+
+
+.tituloCard {
+    color: grey;
+}
+
+
+.buttonMudar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+    height: 5vh;
+    width: 5vh;
+    box-shadow: var(--shadowPadrao);
+    z-index: 2;
+}
+
+.buttonMudar:active {
+    background-color: rgb(255, 223, 205);
+}
+
+button img {
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+
+}
+
+
+.divImgTecido {
+    display: flexbox;
+    height: 90%;
+    width: 90%;
+    background-color: wheat;
+}
+
+.imgCard {
+    position: absolute;
+    height: 93%;
+    width: 93%;
+}
